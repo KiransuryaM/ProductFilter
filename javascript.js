@@ -45,9 +45,9 @@ buttons.forEach((button)=>{
      });
 });
 
-function setActiveBtn(e){
+function setActiveBtn(element){
       buttons.forEach((button)=>{
            button.classList.remove('but');
       });
-      e.target.classList.add('but');
+      element.target.classList.add('but');
 }
