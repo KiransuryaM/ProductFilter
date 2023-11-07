@@ -16,7 +16,7 @@ body{
 }
 .box{
        height:12rem;
-       border:5px solid white;
+       border:7px solid white;
        border-radius: 3px;
        overflow: hidden;
 }
